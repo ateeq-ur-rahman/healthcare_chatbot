@@ -228,9 +228,3 @@ Things I'd tackle next, roughly in priority order:
   just not wired up to anything yet), voice input/output, PDF chat export,
   response caching for repeated questions.
 
-## Disclaimer
-
-Built to strict safety constraints (no diagnosis, no prescriptions, no
-dosages, mandatory disclaimers, deterministic emergency handling) but this
-is a portfolio/assignment project, not a certified medical device. Don't use
-it as a sole source of guidance for real medical decisions.
