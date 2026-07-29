@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment / secrets - never commit real credentials
+.env
+.env.local
+.env.*.local
+
+# RAG artifacts - rebuildable from knowledge_base/docs via `python -m app.rag`
+vectorstore/*.faiss
+vectorstore/*.json
+
+# Streamlit
+.streamlit/
+
+# Node (docs/generate_pptx.js dependencies, if installed locally)
+node_modules/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

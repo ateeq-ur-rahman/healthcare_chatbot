@@ -1,0 +1,26 @@
+# Version control / editors
+.git/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Secrets - the image reads config from the runtime env, not a baked-in file
+.env
+
+# Not needed inside the container images
+tests/
+docs/
+node_modules/
+*.md
+.gitignore
+.dockerignore
+docker-compose.yml
